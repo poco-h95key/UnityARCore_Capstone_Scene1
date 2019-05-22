@@ -56,12 +56,9 @@ public void InvokeDelete()
 }
  ```
 ***
-# Furniture
-![Screenshot_20190522-165741_scene_1](https://user-images.githubusercontent.com/41403898/58157838-2c422280-7cb4-11e9-8c56-4015e32c26a3.jpg)
 
-* Click '+' button, then furniture list show up, the number of lists is 5
-* Click furniture icon, then furniture object loaded from web server
-***
+# Furniture Control
+<img width="1200" alt="스크린샷 2019-05-22 오후 5 26 54" src="https://user-images.githubusercontent.com/41403898/58159121-d28f2780-7cb6-11e9-94b0-065c752af935.png">
 ### AssetBundle_Furniture_Load
 ```C#
 AssetBundle bundle;
@@ -98,11 +95,6 @@ IEnumerator GetAssetBundle(string Name)
     }
 }
 ```
-***
-# Furniture Control
-<img width="1200" alt="스크린샷 2019-05-22 오후 5 26 54" src="https://user-images.githubusercontent.com/41403898/58159121-d28f2780-7cb6-11e9-94b0-065c752af935.png">
-
-
 ***
 
 ### touch_move
