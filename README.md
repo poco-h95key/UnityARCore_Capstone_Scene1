@@ -117,7 +117,14 @@ else
                return;
            var newPos = transform.position;
            newPos.x = hitInfo.point.x;
-           newPos.z = hitInfo.point.z + 0.2f;
+           if(hitInfo.point.z >=0)
+           {
+               newPos.z = hitInfo.point.z + 0.2f;
+           }
+           else
+           {
+               newPos.z = hitInfo.point.z - 0.2f;
+           }
            transform.position = newPos;
 
         }
