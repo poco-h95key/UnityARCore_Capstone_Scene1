@@ -96,62 +96,62 @@ IEnumerator GetAssetBundle(string Name)
     }
 }
 ```
-***
-
-### touch_move
-```C#
-if (UITouch.getPhase() == 1)
-{
-    var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
-    var hitInfo = new RaycastHit();
-    if (Physics.Raycast(ray, out hitInfo))
-    {
-        if (hitInfo.transform.name != transform.name)
-            return;
-        var newPos = transform.position;
-        newPos.x = hitInfo.point.x;
-        if (hitInfo.point.z >= 0)
-        {
-            newPos.z = hitInfo.point.z + 0.2f;
-        }
-        else
-        {
-            newPos.z = hitInfo.point.z - 0.2f;
-        }
-        transform.position = newPos;
-    }
-}
-```
-***
-### touch_rotate
-```C#
-if (UITouch.getPhase() == 2)
-{
-    var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
-    var hitInfo = new RaycastHit();
-    float rotSpeed = 20;   
-    if (Physics.Raycast(ray, out hitInfo))
-    {
-        if (hitInfo.transform.name != transform.name)
-            return;
-        float rotX = Input.GetAxis("Mouse X") * rotSpeed * Mathf.Deg2Rad;
-        transform.Rotate(Vector3.up, -rotX);
-    }
-}
-```
 *** 
-### touch_delete
+### touchController
+
 ```C#
-if (UITouch.getPhase() == 3)
+if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
 {
-    var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
-    var hitInfo = new RaycastHit();
-  
-    if (Physics.Raycast(ray, out hitInfo))
+    return;
+}
+else
+{
+    if (UITouch.getPhase() == 1)
     {
-        if (hitInfo.transform.name != transform.name)
-            return;
-        Destroy(hitInfo.transform.gameObject);
+        var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
+        var hitInfo = new RaycastHit();
+
+        if (Physics.Raycast(ray, out hitInfo))
+        {
+           if (hitInfo.transform.name != transform.name)
+               return;
+           var newPos = transform.position;
+           newPos.x = hitInfo.point.x;
+           newPos.z = hitInfo.point.z + 0.2f;
+           transform.position = newPos;
+
+        }
+    }
+    if (UITouch.getPhase() == 2)
+    {
+        var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
+        var hitInfo = new RaycastHit();
+        float rotSpeed = 20;
+        if (Physics.Raycast(ray, out hitInfo))
+        {
+            if (hitInfo.transform.name != transform.name)
+                return;
+            float rotX = Input.GetAxis("Mouse X") * rotSpeed * Mathf.Deg2Rad;
+            transform.Rotate(Vector3.up, -rotX);
+
+            //var yAxis = hitInfo.point.y*rotSpeed;
+            //transform.Rotate(Vector3.up, yAxis);
+        }
+
+    }
+    if (UITouch.getPhase() == 3)
+    {
+        var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
+        var hitInfo = new RaycastHit();
+
+        if (Physics.Raycast(ray, out hitInfo))
+        {
+           if (hitInfo.transform.name != transform.name)
+               return;
+           Destroy(hitInfo.transform.gameObject);
+
+        }
+
     }
 }
 ```
