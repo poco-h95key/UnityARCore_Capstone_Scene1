@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{5A788A0C-D73C-6573-28D5-A11956F452EB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/FurnitureControl.cs">
+    <Files>
+      <File FileName="Assets/scripts/touchController.cs" Line="17" Column="44" />
+      <File FileName="Assets/scripts/FurnitureControl.cs" Line="10" Column="1" />
+      <File FileName="Assets/scripts/buttonControl.cs" Line="18" Column="6" />
+      <File FileName="Assets/scripts/UITouch.cs" Line="62" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="scene_1" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="FurnitureControl.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e70802c2-b3ca-4ab2-9045-a3456f8bb3a0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

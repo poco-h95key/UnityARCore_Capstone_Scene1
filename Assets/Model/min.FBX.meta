@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 68e0ae22c38a7d741b78b3162d654273
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329435]"
+    100002: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329504]"
+    100004: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329606]"
+    100006: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329644]"
+    100008: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329713]"
+    100010: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329786]"
+    100012: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329879]"
+    100014: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329913]"
+    100016: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330035]"
+    100018: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330083]"
+    100020: Compass001
+    100022: "Floor \uC77C\uBC18 150mm [330381]"
+    100024: //RootNode
+    100026: Sky002
+    100028: Sun002
+    100030: SunAndSky-002
+    100032: SunStudy
+    100034: 'Views: {3D}'
+    100036: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330229]"
+    100038: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330268]"
+    100040: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330320]"
+    400000: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329435]"
+    400002: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329504]"
+    400004: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329606]"
+    400006: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329644]"
+    400008: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329713]"
+    400010: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329786]"
+    400012: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329879]"
+    400014: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329913]"
+    400016: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330035]"
+    400018: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330083]"
+    400020: Compass001
+    400022: "Floor \uC77C\uBC18 150mm [330381]"
+    400024: //RootNode
+    400026: Sky002
+    400028: Sun002
+    400030: SunAndSky-002
+    400032: SunStudy
+    400034: 'Views: {3D}'
+    400036: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330229]"
+    400038: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330268]"
+    400040: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330320]"
+    2000000: 'Views: {3D}'
+    2100000: "\uC11D\uACE0 \uBCBD \uBCF4\uB4DC"
+    2100002: "\uBCBD\uB3CC, \uACF5\uD1B5"
+    2100004: "\uAE30\uBCF8 \uBCBD"
+    2100006: "\uD558\uB4DC\uC6E8\uC5B4"
+    2100008: "\uBB38 \uD328\uB110"
+    2100010: "\uBB38 \uD504\uB808\uC784"
+    2100012: No Name
+    2300000: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329435]"
+    2300002: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329504]"
+    2300004: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329606]"
+    2300006: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329644]"
+    2300008: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329713]"
+    2300010: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329786]"
+    2300012: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329879]"
+    2300014: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329913]"
+    2300016: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330035]"
+    2300018: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330083]"
+    2300020: "Floor \uC77C\uBC18 150mm [330381]"
+    2300022: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330229]"
+    2300024: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330268]"
+    2300026: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330320]"
+    3300000: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329435]"
+    3300002: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329504]"
+    3300004: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329606]"
+    3300006: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329644]"
+    3300008: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329713]"
+    3300010: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329786]"
+    3300012: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329879]"
+    3300014: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329913]"
+    3300016: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330035]"
+    3300018: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330083]"
+    3300020: "Floor \uC77C\uBC18 150mm [330381]"
+    3300022: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330229]"
+    3300024: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330268]"
+    3300026: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330320]"
+    4300000: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329435]"
+    4300002: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329504]"
+    4300004: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329606]"
+    4300006: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329644]"
+    4300008: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329713]"
+    4300010: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329786]"
+    4300012: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329879]"
+    4300014: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [329913]"
+    4300016: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330035]"
+    4300018: "Basic Wall \uC678\uBCBD - \uC2A4\uD2F8 \uC2A4\uD130\uB4DC \uBCBD\uB3CC\uBCBD
+      [330083]"
+    4300020: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330229]"
+    4300022: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330268]"
+    4300024: "\uB2E8\uC77C_\uC8FC\uAC70\uC6A9 750x1800mm [330320]"
+    4300026: "Floor \uC77C\uBC18 150mm [330381]"
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Sky002
+    10800002: Sun002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

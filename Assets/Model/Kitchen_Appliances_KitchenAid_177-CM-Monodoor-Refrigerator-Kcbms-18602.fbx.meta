@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: aa174370937dd744fbf34c7f2d9caf39
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mesh_11_8da47b4f_ef45_4e74_b3a2_6e970c836bc0
+    100004: Mesh_13_5025a3a7_5d87_4795_9503_6ef594f72b3f
+    100006: Mesh_15_c4494692_b6da_48f7_bd8d_b3beb00f76c9
+    100008: Mesh_17_f5d31c51_8efe_47f9_957c_024a6bfcb766
+    100010: Mesh_19_f2bd1e39_d95a_4849_bb51_d0c332397f8b
+    100012: Mesh_1_092e1174_a68a_44d9_ab51_94dbbce0f62d
+    100014: Mesh_21_57fdd814_51e0_4368_b1b3_fb98116caec8
+    100016: Mesh_23_75f085ee_2fe8_49d7_96d8_e89c6a019ac4_Ch1
+    100018: Mesh_25_01f0081d_3217_453f_9326_d00f07302533
+    100020: Mesh_27_baa93f24_8549_47e9_ab0c_ce780fd0ddd0
+    100022: Mesh_29_afd55fbc_0c01_43b0_9da7_b3c00b3c4eb8
+    100024: Mesh_31_9f5af332_4dd9_4564_b9b7_c07975a583f1
+    100026: Mesh_33_83c466a5_c18c_47f6_b01d_d4dea349bd0f
+    100028: Mesh_35_6bdfe6f1_dab9_44a6_b20e_bd81dfb51b17
+    100030: Mesh_37_960725ed_4145_4add_a3a3_0767100fd51a
+    100032: Mesh_39_27ef0d3b_171e_490f_92e0_9f67ebcb5fdb
+    100034: Mesh_3_cd1c354f_d5bb_4092_a2d5_795fbf9c6009
+    100036: Mesh_5_26de24b1_4ee3_48ea_80bd_b71c510ed61c
+    100038: Mesh_7_cbdda53c_4569_40d5_912c_cce557e6dc29
+    100040: Mesh_9_90017852_b988_4a99_b605_0b74d1cacfb6
+    400000: //RootNode
+    400002: Mesh_11_8da47b4f_ef45_4e74_b3a2_6e970c836bc0
+    400004: Mesh_13_5025a3a7_5d87_4795_9503_6ef594f72b3f
+    400006: Mesh_15_c4494692_b6da_48f7_bd8d_b3beb00f76c9
+    400008: Mesh_17_f5d31c51_8efe_47f9_957c_024a6bfcb766
+    400010: Mesh_19_f2bd1e39_d95a_4849_bb51_d0c332397f8b
+    400012: Mesh_1_092e1174_a68a_44d9_ab51_94dbbce0f62d
+    400014: Mesh_21_57fdd814_51e0_4368_b1b3_fb98116caec8
+    400016: Mesh_23_75f085ee_2fe8_49d7_96d8_e89c6a019ac4_Ch1
+    400018: Mesh_25_01f0081d_3217_453f_9326_d00f07302533
+    400020: Mesh_27_baa93f24_8549_47e9_ab0c_ce780fd0ddd0
+    400022: Mesh_29_afd55fbc_0c01_43b0_9da7_b3c00b3c4eb8
+    400024: Mesh_31_9f5af332_4dd9_4564_b9b7_c07975a583f1
+    400026: Mesh_33_83c466a5_c18c_47f6_b01d_d4dea349bd0f
+    400028: Mesh_35_6bdfe6f1_dab9_44a6_b20e_bd81dfb51b17
+    400030: Mesh_37_960725ed_4145_4add_a3a3_0767100fd51a
+    400032: Mesh_39_27ef0d3b_171e_490f_92e0_9f67ebcb5fdb
+    400034: Mesh_3_cd1c354f_d5bb_4092_a2d5_795fbf9c6009
+    400036: Mesh_5_26de24b1_4ee3_48ea_80bd_b71c510ed61c
+    400038: Mesh_7_cbdda53c_4569_40d5_912c_cce557e6dc29
+    400040: Mesh_9_90017852_b988_4a99_b605_0b74d1cacfb6
+    2100000: KitchenAid_Chrome_bdc698f3_b56c_4fc4_8f28_31851926a152
+    2100002: KitchenAid_White_4c1a3b48_2d5f_451c_b92e_2669789bcd89
+    2100004: KitchenAid_logo-panel_8f2ff3c4_564e_409c_a8cc_a75288c3f00f
+    2300000: Mesh_11_8da47b4f_ef45_4e74_b3a2_6e970c836bc0
+    2300002: Mesh_13_5025a3a7_5d87_4795_9503_6ef594f72b3f
+    2300004: Mesh_15_c4494692_b6da_48f7_bd8d_b3beb00f76c9
+    2300006: Mesh_17_f5d31c51_8efe_47f9_957c_024a6bfcb766
+    2300008: Mesh_19_f2bd1e39_d95a_4849_bb51_d0c332397f8b
+    2300010: Mesh_1_092e1174_a68a_44d9_ab51_94dbbce0f62d
+    2300012: Mesh_21_57fdd814_51e0_4368_b1b3_fb98116caec8
+    2300014: Mesh_23_75f085ee_2fe8_49d7_96d8_e89c6a019ac4_Ch1
+    2300016: Mesh_25_01f0081d_3217_453f_9326_d00f07302533
+    2300018: Mesh_27_baa93f24_8549_47e9_ab0c_ce780fd0ddd0
+    2300020: Mesh_29_afd55fbc_0c01_43b0_9da7_b3c00b3c4eb8
+    2300022: Mesh_31_9f5af332_4dd9_4564_b9b7_c07975a583f1
+    2300024: Mesh_33_83c466a5_c18c_47f6_b01d_d4dea349bd0f
+    2300026: Mesh_35_6bdfe6f1_dab9_44a6_b20e_bd81dfb51b17
+    2300028: Mesh_37_960725ed_4145_4add_a3a3_0767100fd51a
+    2300030: Mesh_39_27ef0d3b_171e_490f_92e0_9f67ebcb5fdb
+    2300032: Mesh_3_cd1c354f_d5bb_4092_a2d5_795fbf9c6009
+    2300034: Mesh_5_26de24b1_4ee3_48ea_80bd_b71c510ed61c
+    2300036: Mesh_7_cbdda53c_4569_40d5_912c_cce557e6dc29
+    2300038: Mesh_9_90017852_b988_4a99_b605_0b74d1cacfb6
+    3300000: Mesh_11_8da47b4f_ef45_4e74_b3a2_6e970c836bc0
+    3300002: Mesh_13_5025a3a7_5d87_4795_9503_6ef594f72b3f
+    3300004: Mesh_15_c4494692_b6da_48f7_bd8d_b3beb00f76c9
+    3300006: Mesh_17_f5d31c51_8efe_47f9_957c_024a6bfcb766
+    3300008: Mesh_19_f2bd1e39_d95a_4849_bb51_d0c332397f8b
+    3300010: Mesh_1_092e1174_a68a_44d9_ab51_94dbbce0f62d
+    3300012: Mesh_21_57fdd814_51e0_4368_b1b3_fb98116caec8
+    3300014: Mesh_23_75f085ee_2fe8_49d7_96d8_e89c6a019ac4_Ch1
+    3300016: Mesh_25_01f0081d_3217_453f_9326_d00f07302533
+    3300018: Mesh_27_baa93f24_8549_47e9_ab0c_ce780fd0ddd0
+    3300020: Mesh_29_afd55fbc_0c01_43b0_9da7_b3c00b3c4eb8
+    3300022: Mesh_31_9f5af332_4dd9_4564_b9b7_c07975a583f1
+    3300024: Mesh_33_83c466a5_c18c_47f6_b01d_d4dea349bd0f
+    3300026: Mesh_35_6bdfe6f1_dab9_44a6_b20e_bd81dfb51b17
+    3300028: Mesh_37_960725ed_4145_4add_a3a3_0767100fd51a
+    3300030: Mesh_39_27ef0d3b_171e_490f_92e0_9f67ebcb5fdb
+    3300032: Mesh_3_cd1c354f_d5bb_4092_a2d5_795fbf9c6009
+    3300034: Mesh_5_26de24b1_4ee3_48ea_80bd_b71c510ed61c
+    3300036: Mesh_7_cbdda53c_4569_40d5_912c_cce557e6dc29
+    3300038: Mesh_9_90017852_b988_4a99_b605_0b74d1cacfb6
+    4300000: Mesh_11_8da47b4f_ef45_4e74_b3a2_6e970c836bc0
+    4300002: Mesh_13_5025a3a7_5d87_4795_9503_6ef594f72b3f
+    4300004: Mesh_15_c4494692_b6da_48f7_bd8d_b3beb00f76c9
+    4300006: Mesh_17_f5d31c51_8efe_47f9_957c_024a6bfcb766
+    4300008: Mesh_19_f2bd1e39_d95a_4849_bb51_d0c332397f8b
+    4300010: Mesh_1_092e1174_a68a_44d9_ab51_94dbbce0f62d
+    4300012: Mesh_21_57fdd814_51e0_4368_b1b3_fb98116caec8
+    4300014: Mesh_23_75f085ee_2fe8_49d7_96d8_e89c6a019ac4_Ch1
+    4300016: Mesh_25_01f0081d_3217_453f_9326_d00f07302533
+    4300018: Mesh_27_baa93f24_8549_47e9_ab0c_ce780fd0ddd0
+    4300020: Mesh_29_afd55fbc_0c01_43b0_9da7_b3c00b3c4eb8
+    4300022: Mesh_31_9f5af332_4dd9_4564_b9b7_c07975a583f1
+    4300024: Mesh_33_83c466a5_c18c_47f6_b01d_d4dea349bd0f
+    4300026: Mesh_35_6bdfe6f1_dab9_44a6_b20e_bd81dfb51b17
+    4300028: Mesh_37_960725ed_4145_4add_a3a3_0767100fd51a
+    4300030: Mesh_39_27ef0d3b_171e_490f_92e0_9f67ebcb5fdb
+    4300032: Mesh_3_cd1c354f_d5bb_4092_a2d5_795fbf9c6009
+    4300034: Mesh_5_26de24b1_4ee3_48ea_80bd_b71c510ed61c
+    4300036: Mesh_7_cbdda53c_4569_40d5_912c_cce557e6dc29
+    4300038: Mesh_9_90017852_b988_4a99_b605_0b74d1cacfb6
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KitchenAid_Chrome_bdc698f3_b56c_4fc4_8f28_31851926a152
+    second: {fileID: 2100000, guid: d4de13195cbd49649a4a52a2c9f8b1d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KitchenAid_White_4c1a3b48_2d5f_451c_b92e_2669789bcd89
+    second: {fileID: 2100000, guid: 8d421923f6f270e448fb71dac8b6e995, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KitchenAid_logo-panel_8f2ff3c4_564e_409c_a8cc_a75288c3f00f
+    second: {fileID: 2100000, guid: b63ba292b637cbe42adae96fb667eed2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: a3cc6c2cdd459f542a15c06bd120d99f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mesh_11_abf60625_a850_47d9_9e9c_6c8935c1bd6f
+    100004: Mesh_13_699d666c_9858_4e11_8063_3fa894dfa60a
+    100006: Mesh_15_082df06a_3751_4c00_b740_8b5b28920486
+    100008: Mesh_1_f8f8e63e_7bcc_4519_a10e_635aa61386f4
+    100010: Mesh_3_f591fb0b_ef13_4c4f_8f88_a36331f382ed
+    100012: Mesh_5_b9f2914c_8d6b_418f_a1a3_33f8c3c08343
+    100014: Mesh_7_7aacdef2_5db5_47f6_b3b0_012d99d38409
+    100016: Mesh_9_68453883_10ed_46c8_9323_1f6bb498a3f6
+    400000: //RootNode
+    400002: Mesh_11_abf60625_a850_47d9_9e9c_6c8935c1bd6f
+    400004: Mesh_13_699d666c_9858_4e11_8063_3fa894dfa60a
+    400006: Mesh_15_082df06a_3751_4c00_b740_8b5b28920486
+    400008: Mesh_1_f8f8e63e_7bcc_4519_a10e_635aa61386f4
+    400010: Mesh_3_f591fb0b_ef13_4c4f_8f88_a36331f382ed
+    400012: Mesh_5_b9f2914c_8d6b_418f_a1a3_33f8c3c08343
+    400014: Mesh_7_7aacdef2_5db5_47f6_b3b0_012d99d38409
+    400016: Mesh_9_68453883_10ed_46c8_9323_1f6bb498a3f6
+    2100000: DARK_d46d7216_eabb_42b6_876d_8a4d82167de1
+    2100002: METAL_70369e8f_7982_4a07_95c6_41faee45867b
+    2300000: Mesh_11_abf60625_a850_47d9_9e9c_6c8935c1bd6f
+    2300002: Mesh_13_699d666c_9858_4e11_8063_3fa894dfa60a
+    2300004: Mesh_15_082df06a_3751_4c00_b740_8b5b28920486
+    2300006: Mesh_1_f8f8e63e_7bcc_4519_a10e_635aa61386f4
+    2300008: Mesh_3_f591fb0b_ef13_4c4f_8f88_a36331f382ed
+    2300010: Mesh_5_b9f2914c_8d6b_418f_a1a3_33f8c3c08343
+    2300012: Mesh_7_7aacdef2_5db5_47f6_b3b0_012d99d38409
+    2300014: Mesh_9_68453883_10ed_46c8_9323_1f6bb498a3f6
+    3300000: Mesh_11_abf60625_a850_47d9_9e9c_6c8935c1bd6f
+    3300002: Mesh_13_699d666c_9858_4e11_8063_3fa894dfa60a
+    3300004: Mesh_15_082df06a_3751_4c00_b740_8b5b28920486
+    3300006: Mesh_1_f8f8e63e_7bcc_4519_a10e_635aa61386f4
+    3300008: Mesh_3_f591fb0b_ef13_4c4f_8f88_a36331f382ed
+    3300010: Mesh_5_b9f2914c_8d6b_418f_a1a3_33f8c3c08343
+    3300012: Mesh_7_7aacdef2_5db5_47f6_b3b0_012d99d38409
+    3300014: Mesh_9_68453883_10ed_46c8_9323_1f6bb498a3f6
+    4300000: Mesh_11_abf60625_a850_47d9_9e9c_6c8935c1bd6f
+    4300002: Mesh_13_699d666c_9858_4e11_8063_3fa894dfa60a
+    4300004: Mesh_15_082df06a_3751_4c00_b740_8b5b28920486
+    4300006: Mesh_1_f8f8e63e_7bcc_4519_a10e_635aa61386f4
+    4300008: Mesh_3_f591fb0b_ef13_4c4f_8f88_a36331f382ed
+    4300010: Mesh_5_b9f2914c_8d6b_418f_a1a3_33f8c3c08343
+    4300012: Mesh_7_7aacdef2_5db5_47f6_b3b0_012d99d38409
+    4300014: Mesh_9_68453883_10ed_46c8_9323_1f6bb498a3f6
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

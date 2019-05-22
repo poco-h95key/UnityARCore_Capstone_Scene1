@@ -1,0 +1,27 @@
+Android
+PlayerPath?
+/Users/hongmingi//Desktop/AssetBundle/scene_1
+SceneListBegin?
+Assets/Scenes/scene_1.unity
+SceneListEnd?
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.touchController
+5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
+4bc4346a71a8df53a6b106f68ef3a190 UnityEngine.UI.dll:UnityEngine.UI.CanvasScaler
+cc4274b586df3c02688bac01b88bd16c UnityEngine.UI.dll:UnityEngine.EventSystems.EventSystem
+3d38a4eabfe8309a3e6b26c25648a26d UnityEngine.UI.dll:UnityEngine.EventSystems.EventTrigger
+ae83e830e7a90c0aff918c4c2e520825 UnityEngine.UI.dll:UnityEngine.UI.GraphicRaycaster
+7ab0e790220bdca831fdd886b339039d UnityEngine.UI.dll:UnityEngine.UI.GridLayoutGroup
+686dc5ae0550d5cc850c0d1dcce4c018 UnityEngine.UI.dll:UnityEngine.UI.Image
+92da9881aed190e8bb74661bcd74aa2c UnityEngine.UI.dll:UnityEngine.UI.RawImage
+97ace6213ad0f149b0917a4c669c6ca3 UnityEngine.UI.dll:UnityEngine.UI.ScrollRect
+748dd2a2a28da4e618912da5ac45684b UnityEngine.UI.dll:UnityEngine.EventSystems.StandaloneInputModule
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SceneLandscape
+d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+b818207c0b8a805931f7a7989870283e Assembly-CSharp.dll:GoogleARCore.ARCoreBackgroundRenderer
+76da9af464ae5428938fc0b9ffd67b8c Assembly-CSharp.dll:.buttonControl
+730cb206de4d4b2bcaa845b8bfe01c2a Assembly-CSharp.dll:.ScrollRectSnapFurniture
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FurnitureControl
+dcdbe5f60453abb48bd1e2d8226c4519 Assembly-CSharp.dll:GoogleARCore.ARCoreSession
+a1b7cfcc4f40a79a3ab4402c876ba619 Assembly-CSharp.dll:GoogleARCore.ARCoreSessionConfig
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Minimap
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UITouch
