@@ -8,9 +8,9 @@
 # Furniture
 ![Screenshot_20190522-165741_scene_1](https://user-images.githubusercontent.com/41403898/58157838-2c422280-7cb4-11e9-8c56-4015e32c26a3.jpg)
 
-* Click '+' button, then furniture list show up, the number of lists is 5  
-***
-### AssetBundle_Furniture_Load
+* Click '+' button, then furniture list show up, the number of lists is 5
+* Click furniture icon, then furniture object loaded from web server
+* AssetBundle_Furniture_Load
 ```C#
 AssetBundle bundle;
 UnityWebRequest www;
@@ -47,8 +47,11 @@ IEnumerator GetAssetBundle(string Name)
 }
 ```
 ***
-##### 가져온 AssetBundle에 touchController클래스를 넣어 move,rotate,delete 활성화, 코루틴을 사용하여 객체를 불러옴 
+* Furniture Load
+![Screenshot_20190522-170031_scene_1](https://user-images.githubusercontent.com/41403898/58158420-5fd17c80-7cb5-11e9-899d-abe12937e2fa.jpg)
 
+***
+# Furniture Control
 ## UITouch class
 ```C#
 public static int phase; // 상태를 나타내는 변수, 0일 때 변화없음, 1일 때 가구 이동 활성화, 2일 때 가구 회전 활성화, 3일 때 가구 삭제 활성화, 4일 때 나가기
@@ -96,9 +99,9 @@ public void InvokeDelete()
     Invoke("switchDelete", 1);
 }
  ```
- ##### Select버튼, Move버튼, Rotate버튼, Delete버튼에 따라 상태를 바꿔 가구의 움직임을 조정가능 <br>
 ***
-## touch_move
+
+* touch_move
 ```C#
 if (UITouch.getPhase() == 1)
 {
@@ -124,7 +127,7 @@ if (UITouch.getPhase() == 1)
 ```
 ##### y축은 고정하고 x축과 z축 방향으로의 이동을 구현, 사용자와 거리를 두기위해 z이동의 가중치 추가
 ***
-## touch_rotate
+* touch_rotate
 ```C#
 if (UITouch.getPhase() == 2)
 {
@@ -142,7 +145,7 @@ if (UITouch.getPhase() == 2)
 ```
 ##### x축을 기준으로 왼쪽드래그, 오른쪽드래그에 따라 물체의 회전이 가능
 *** 
-## touch_delete
+* touch_delete
 ```C#
 if (UITouch.getPhase() == 3)
 {
