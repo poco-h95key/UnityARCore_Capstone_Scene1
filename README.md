@@ -11,7 +11,7 @@
 * Click '+' button, then furniture list show up, the number of lists is 5
 * Click furniture icon, then furniture object loaded from web server
 ***
-## AssetBundle_Furniture_Load
+### AssetBundle_Furniture_Load
 ```C#
 AssetBundle bundle;
 UnityWebRequest www;
@@ -48,12 +48,12 @@ IEnumerator GetAssetBundle(string Name)
 }
 ```
 ***
-## Furniture Load
+### Furniture Load
 ![Screenshot_20190522-170031_scene_1](https://user-images.githubusercontent.com/41403898/58158420-5fd17c80-7cb5-11e9-899d-abe12937e2fa.jpg)
 
 ***
 # Furniture Control
-## UITouch class
+### UITouch class
 ```C#
 public static int phase; // 상태를 나타내는 변수, 0일 때 변화없음, 1일 때 가구 이동 활성화, 2일 때 가구 회전 활성화, 3일 때 가구 삭제 활성화, 4일 때 나가기
 
@@ -102,7 +102,7 @@ public void InvokeDelete()
  ```
 ***
 
-* touch_move
+### touch_move
 ```C#
 if (UITouch.getPhase() == 1)
 {
@@ -128,7 +128,7 @@ if (UITouch.getPhase() == 1)
 ```
 ##### y축은 고정하고 x축과 z축 방향으로의 이동을 구현, 사용자와 거리를 두기위해 z이동의 가중치 추가
 ***
-* touch_rotate
+### touch_rotate
 ```C#
 if (UITouch.getPhase() == 2)
 {
@@ -146,7 +146,7 @@ if (UITouch.getPhase() == 2)
 ```
 ##### x축을 기준으로 왼쪽드래그, 오른쪽드래그에 따라 물체의 회전이 가능
 *** 
-* touch_delete
+### touch_delete
 ```C#
 if (UITouch.getPhase() == 3)
 {
