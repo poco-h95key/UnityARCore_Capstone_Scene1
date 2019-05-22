@@ -1,4 +1,5 @@
-## previous step : https://github.com/Esensia/UnityARCore_CapstoneDesign_Main
+## Previous step 
+* Main : https://github.com/Esensia/UnityARCore_CapstoneDesign_Main
 ***
 # Sunflower Rendering
 ![Screenshot_20190522-170004_scene_1](https://user-images.githubusercontent.com/41403898/58157627-b6d65200-7cb3-11e9-866d-611d2aaa9e91.jpg)
@@ -152,6 +153,3 @@ if (UITouch.getPhase() == 3)
 }
 ```
 ##### 삭제하고자 하는 물체 터치시, 객체 파괴
-
-# Execution screen
-![Screenshot_20190419-205407_final](https://user-images.githubusercontent.com/41403898/56423076-67cc8400-62e5-11e9-82f0-2a47cc456be5.jpg)
