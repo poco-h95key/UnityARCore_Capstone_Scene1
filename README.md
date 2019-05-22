@@ -1,58 +1,12 @@
 ## Previous step 
 * Main : https://github.com/Esensia/UnityARCore_CapstoneDesign_Main
 ***
-# UITouch
-<img width="1195" alt="스크린샷 2019-05-22 오후 10 17 53" src="https://user-images.githubusercontent.com/41403898/58177522-81475e00-7cdf-11e9-93a2-cd6bf8148235.png">
-
 # Sunflower Rendering
 ![Screenshot_20190522-170004_scene_1](https://user-images.githubusercontent.com/41403898/58157627-b6d65200-7cb3-11e9-866d-611d2aaa9e91.jpg)
 
 ***
-# Furniture
-![Screenshot_20190522-165741_scene_1](https://user-images.githubusercontent.com/41403898/58157838-2c422280-7cb4-11e9-8c56-4015e32c26a3.jpg)
-
-* Click '+' button, then furniture list show up, the number of lists is 5
-* Click furniture icon, then furniture object loaded from web server
-***
-### AssetBundle_Furniture_Load
-```C#
-AssetBundle bundle;
-UnityWebRequest www;
-
-public void SelectiveLoad()
-{
-    name = EventSystem.current.currentSelectedGameObject.name; // button click, then object same as the name of clicked button is loaded 
-    StartCoroutine(GetAssetBundle(name));
-}
-    
-IEnumerator GetAssetBundle(string Name)
-{
-    www = UnityWebRequestAssetBundle.GetAssetBundle("http://13.125.111.193/scene2and/"+Name); // get url of object 
-    yield return www.SendWebRequest();
-    if (www.isNetworkError || www.isHttpError)
-    {
-        Debug.Log(www.error);
-    }
-    else
-    {
-        bundle = DownloadHandlerAssetBundle.GetContent(www); // downloading the object
-        GameObject obj = bundle.LoadAsset(Name) as GameObject; // loaded object
-        obj.name = Name; 
-        obj.AddComponent<touchController>(); // add touchController to object
-        var newY = obj.transform.position.y; // fixed position y
-        var mainCamera = Camera.main.transform; 
-        obj.transform.position = new Vector3(1.5f * mainCamera.forward.x + mainCamera.position.x, newY, 1.5f *      mainCamera.forward.z + mainCamera.position.z); 
-        // y값은 고정이나 카메라의 위치에 따라 사용자 앞에 오브젝트가 생성되어야 하기 때문에 x값과 z값의 변화만 줌
-        Instantiate(obj);
-
-        bundle.Unload(false); // bundle unload
-        www.Dispose(); // url dispose
-    }
-}
-```
-***
-# Furniture Control
-<img width="1200" alt="스크린샷 2019-05-22 오후 5 26 54" src="https://user-images.githubusercontent.com/41403898/58159121-d28f2780-7cb6-11e9-94b0-065c752af935.png">
+# UITouch
+<img width="1195" alt="스크린샷 2019-05-22 오후 10 17 53" src="https://user-images.githubusercontent.com/41403898/58177522-81475e00-7cdf-11e9-93a2-cd6bf8148235.png">
 
 ### UITouch class
 ```C#
@@ -101,6 +55,54 @@ public void InvokeDelete()
     Invoke("switchDelete", 1);
 }
  ```
+
+# Furniture
+![Screenshot_20190522-165741_scene_1](https://user-images.githubusercontent.com/41403898/58157838-2c422280-7cb4-11e9-8c56-4015e32c26a3.jpg)
+
+* Click '+' button, then furniture list show up, the number of lists is 5
+* Click furniture icon, then furniture object loaded from web server
+***
+### AssetBundle_Furniture_Load
+```C#
+AssetBundle bundle;
+UnityWebRequest www;
+
+public void SelectiveLoad()
+{
+    name = EventSystem.current.currentSelectedGameObject.name; // button click, then object same as the name of clicked button is loaded 
+    StartCoroutine(GetAssetBundle(name));
+}
+    
+IEnumerator GetAssetBundle(string Name)
+{
+    www = UnityWebRequestAssetBundle.GetAssetBundle("http://13.125.111.193/scene2and/"+Name); // get url of object 
+    yield return www.SendWebRequest();
+    if (www.isNetworkError || www.isHttpError)
+    {
+        Debug.Log(www.error);
+    }
+    else
+    {
+        bundle = DownloadHandlerAssetBundle.GetContent(www); // downloading the object
+        GameObject obj = bundle.LoadAsset(Name) as GameObject; // loaded object
+        obj.name = Name; 
+        obj.AddComponent<touchController>(); // add touchController to object
+        var newY = obj.transform.position.y; // fixed position y
+        var mainCamera = Camera.main.transform; 
+        obj.transform.position = new Vector3(1.5f * mainCamera.forward.x + mainCamera.position.x, newY, 1.5f *      mainCamera.forward.z + mainCamera.position.z); 
+        // y값은 고정이나 카메라의 위치에 따라 사용자 앞에 오브젝트가 생성되어야 하기 때문에 x값과 z값의 변화만 줌
+        Instantiate(obj);
+
+        bundle.Unload(false); // bundle unload
+        www.Dispose(); // url dispose
+    }
+}
+```
+***
+# Furniture Control
+<img width="1200" alt="스크린샷 2019-05-22 오후 5 26 54" src="https://user-images.githubusercontent.com/41403898/58159121-d28f2780-7cb6-11e9-94b0-065c752af935.png">
+
+
 ***
 
 ### touch_move
