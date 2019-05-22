@@ -6,7 +6,7 @@
 
 ***
 # UITouch
-<img width="1195" alt="스크린샷 2019-05-22 오후 10 17 53" src="https://user-images.githubusercontent.com/41403898/58177522-81475e00-7cdf-11e9-93a2-cd6bf8148235.png">
+<img width="1198" alt="스크린샷 2019-05-23 오전 1 40 07" src="https://user-images.githubusercontent.com/41403898/58192478-d002f100-7cfb-11e9-9e0d-9699ada20ac7.png">
 
 ### UITouch class
 ```C#
