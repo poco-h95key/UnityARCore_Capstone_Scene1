@@ -100,7 +100,7 @@ IEnumerator GetAssetBundle(string Name)
 ### touchController
 
 ```C#
-if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) // To avoid UI,Object multi touch
 {
     return;
 }
