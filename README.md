@@ -1,5 +1,8 @@
-# Sunflower Scene
-### previous step : https://github.com/Esensia/UnityARCore_CapstoneDesign_Main
+# previous step : https://github.com/Esensia/UnityARCore_CapstoneDesign_Main
+***
+# Sunflower Rendering
+![Screenshot_20190522-170004_scene_1](https://user-images.githubusercontent.com/41403898/58157627-b6d65200-7cb3-11e9-866d-611d2aaa9e91.jpg)
+
 ***
 ## AssetBundle_Furniture_Load
 ```C#
