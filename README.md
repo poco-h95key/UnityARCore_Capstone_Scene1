@@ -1,17 +1,17 @@
-* AssetBundle_Furniture_Load
+## AssetBundle_Furniture_Load
 ```C#
-public void desk1Load()
+AssetBundle bundle;
+UnityWebRequest www;
+
+public void SelectiveLoad()
 {
-    StartCoroutine(GetAssetBundle("desk1")); // desk1로 저장된 에셋번들 가져오기
-}
-public void bed3Load()
-{
-    StartCoroutine(GetAssetBundle("bed3")); // bed3로 저장된 에셋번들 가져오기
+    name = EventSystem.current.currentSelectedGameObject.name; // button click, then object same as the name of clicked button is loaded 
+    StartCoroutine(GetAssetBundle(name));
 }
     
 IEnumerator GetAssetBundle(string Name)
 {
-    www = UnityWebRequestAssetBundle.GetAssetBundle("http://13.125.111.193/scene2and/"+Name); // 지정해놓은 주소에서 객체를 가져옴
+    www = UnityWebRequestAssetBundle.GetAssetBundle("http://13.125.111.193/scene2and/"+Name); // get url of object 
     yield return www.SendWebRequest();
     if (www.isNetworkError || www.isHttpError)
     {
@@ -19,24 +19,25 @@ IEnumerator GetAssetBundle(string Name)
     }
     else
     {
-        bundle = DownloadHandlerAssetBundle.GetContent(www); // 가져온 객체를 다운로드함
-        GameObject obj = bundle.LoadAsset(Name) as GameObject; // 다운로드 한 객체를 오브젝트화
+        bundle = DownloadHandlerAssetBundle.GetContent(www); // downloading the object
+        GameObject obj = bundle.LoadAsset(Name) as GameObject; // loaded object
         obj.name = Name; 
-        obj.AddComponent<touchController>(); // 가구에 touchController 클래스를 넣어줌
-        var newY = obj.transform.position.y; // 가구에 y값은 고정시켜줌
-        var mainCamera = Camera.main.transform; // 카메라의 위치를 받기위한 변수
+        obj.AddComponent<touchController>(); // add touchController to object
+        var newY = obj.transform.position.y; // fixed position y
+        var mainCamera = Camera.main.transform; 
         obj.transform.position = new Vector3(1.5f * mainCamera.forward.x + mainCamera.position.x, newY, 1.5f *      mainCamera.forward.z + mainCamera.position.z); 
         // y값은 고정이나 카메라의 위치에 따라 사용자 앞에 오브젝트가 생성되어야 하기 때문에 x값과 z값의 변화만 줌
         Instantiate(obj);
 
-        bundle.Unload(false); // 다운로드받은 번들 언로드
-        www.Dispose(); // 가져온 객체 언로드
+        bundle.Unload(false); // bundle unload
+        www.Dispose(); // url dispose
     }
 }
 ```
+***
 ##### 가져온 AssetBundle에 touchController클래스를 넣어 move,rotate,delete 활성화, 코루틴을 사용하여 객체를 불러옴 
-# Source for furniture  
-* UITouch class
+
+*** UITouch class
 ```C#
 public static int phase; // 상태를 나타내는 변수, 0일 때 변화없음, 1일 때 가구 이동 활성화, 2일 때 가구 회전 활성화, 3일 때 가구 삭제 활성화, 4일 때 나가기
 
@@ -85,7 +86,7 @@ public void InvokeDelete()
  ```
  ##### Select버튼, Move버튼, Rotate버튼, Delete버튼에 따라 상태를 바꿔 가구의 움직임을 조정가능 <br>
 ***
-* touch_move
+## touch_move
 ```C#
 if (UITouch.getPhase() == 1)
 {
@@ -111,7 +112,7 @@ if (UITouch.getPhase() == 1)
 ```
 ##### y축은 고정하고 x축과 z축 방향으로의 이동을 구현, 사용자와 거리를 두기위해 z이동의 가중치 추가
 ***
-* touch_rotate
+## touch_rotate
 ```C#
 if (UITouch.getPhase() == 2)
 {
@@ -129,7 +130,7 @@ if (UITouch.getPhase() == 2)
 ```
 ##### x축을 기준으로 왼쪽드래그, 오른쪽드래그에 따라 물체의 회전이 가능
 *** 
-* touch_delete
+## touch_delete
 ```C#
 if (UITouch.getPhase() == 3)
 {
