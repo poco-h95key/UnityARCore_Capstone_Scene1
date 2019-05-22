@@ -73,7 +73,7 @@ public void SelectiveLoad()
     
 IEnumerator GetAssetBundle(string Name)
 {
-    www = UnityWebRequestAssetBundle.GetAssetBundle("http://13.125.111.193/scene2and/"+Name); // get url of object 
+    www = UnityWebRequestAssetBundle.GetAssetBundle("http://13.125.111.193/scene2and/"+Name); 
     yield return www.SendWebRequest();
     if (www.isNetworkError || www.isHttpError)
     {
@@ -81,18 +81,19 @@ IEnumerator GetAssetBundle(string Name)
     }
     else
     {
-        bundle = DownloadHandlerAssetBundle.GetContent(www); // downloading the object
-        GameObject obj = bundle.LoadAsset(Name) as GameObject; // loaded object
+        bundle = DownloadHandlerAssetBundle.GetContent(www); 
+        GameObject obj = bundle.LoadAsset(Name) as GameObject; 
         obj.name = Name; 
         obj.AddComponent<touchController>(); // add touchController to object
-        var newY = obj.transform.position.y; // fixed position y
+        
+        var newY = obj.transform.position.y; 
         var mainCamera = Camera.main.transform; 
         obj.transform.position = new Vector3(1.5f * mainCamera.forward.x + mainCamera.position.x, newY, 1.5f *      mainCamera.forward.z + mainCamera.position.z); 
-        // y값은 고정이나 카메라의 위치에 따라 사용자 앞에 오브젝트가 생성되어야 하기 때문에 x값과 z값의 변화만 줌
+        
         Instantiate(obj);
 
-        bundle.Unload(false); // bundle unload
-        www.Dispose(); // url dispose
+        bundle.Unload(false); 
+        www.Dispose(); 
     }
 }
 ```
