@@ -37,7 +37,7 @@ IEnumerator GetAssetBundle(string Name)
 ***
 ##### 가져온 AssetBundle에 touchController클래스를 넣어 move,rotate,delete 활성화, 코루틴을 사용하여 객체를 불러옴 
 
-*** UITouch class
+## UITouch class
 ```C#
 public static int phase; // 상태를 나타내는 변수, 0일 때 변화없음, 1일 때 가구 이동 활성화, 2일 때 가구 회전 활성화, 3일 때 가구 삭제 활성화, 4일 때 나가기
 
