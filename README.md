@@ -48,11 +48,9 @@ IEnumerator GetAssetBundle(string Name)
 }
 ```
 ***
-### Furniture Load
-![Screenshot_20190522-170031_scene_1](https://user-images.githubusercontent.com/41403898/58158420-5fd17c80-7cb5-11e9-899d-abe12937e2fa.jpg)
-
-***
 # Furniture Control
+<img width="1200" alt="스크린샷 2019-05-22 오후 5 26 54" src="https://user-images.githubusercontent.com/41403898/58159121-d28f2780-7cb6-11e9-94b0-065c752af935.png">
+
 ### UITouch class
 ```C#
 public static int phase; // 상태를 나타내는 변수, 0일 때 변화없음, 1일 때 가구 이동 활성화, 2일 때 가구 회전 활성화, 3일 때 가구 삭제 활성화, 4일 때 나가기
