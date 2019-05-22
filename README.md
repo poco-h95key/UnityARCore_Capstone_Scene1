@@ -106,7 +106,7 @@ if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
 }
 else
 {
-    if (UITouch.getPhase() == 1)
+    if (UITouch.getPhase() == 1) // Activate movement
     {
         var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
         var hitInfo = new RaycastHit();
@@ -122,7 +122,7 @@ else
 
         }
     }
-    if (UITouch.getPhase() == 2)
+    if (UITouch.getPhase() == 2) // Activate rotation
     {
         var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
         var hitInfo = new RaycastHit();
@@ -139,7 +139,7 @@ else
         }
 
     }
-    if (UITouch.getPhase() == 3)
+    if (UITouch.getPhase() == 3) // // Activate removal
     {
         var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
         var hitInfo = new RaycastHit();
