@@ -5,7 +5,12 @@
 ![Screenshot_20190522-170004_scene_1](https://user-images.githubusercontent.com/41403898/58157627-b6d65200-7cb3-11e9-866d-611d2aaa9e91.jpg)
 
 ***
-## AssetBundle_Furniture_Load
+# Furniture
+![Screenshot_20190522-165741_scene_1](https://user-images.githubusercontent.com/41403898/58157838-2c422280-7cb4-11e9-8c56-4015e32c26a3.jpg)
+
+* Click '+' button, then furniture list show up, the number of lists is 5  
+***
+### AssetBundle_Furniture_Load
 ```C#
 AssetBundle bundle;
 UnityWebRequest www;
