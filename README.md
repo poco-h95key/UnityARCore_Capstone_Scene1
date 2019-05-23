@@ -2,7 +2,7 @@
 * Main : https://github.com/Esensia/UnityARCore_CapstoneDesign_Main
 ***
 # Rendering
-![Screenshot_20190522-170004_scene_1](https://user-images.githubusercontent.com/41403898/58157627-b6d65200-7cb3-11e9-866d-611d2aaa9e91.jpg)
+![Screenshot_20190522-170004_scene_1](https://user-images.githubusercontent.com/41403898/58165871-9ca47000-7cc3-11e9-9d90-e9e7626b03e7.jpg)
 
 ***
 # UITouch
