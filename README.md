@@ -6,7 +6,7 @@
 
 ***
 # UITouch
-<img width="1198" alt="스크린샷 2019-05-23 오전 1 40 07" src="https://user-images.githubusercontent.com/41403898/58192478-d002f100-7cfb-11e9-9e0d-9699ada20ac7.png">
+<img width="1196" alt="스크린샷 2019-05-23 오전 11 47 54" src="https://user-images.githubusercontent.com/41403898/58222339-ad4ef780-7d50-11e9-8d10-01c926400f25.png">
 
 ### UITouch class
 ```C#
@@ -107,7 +107,7 @@ if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) // 
 }
 else
 {
-    if (UITouch.getPhase() == 1) // Activate movement
+    if (UITouch.getPhase() == 1) // Operate movement
     {
         var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
         var hitInfo = new RaycastHit();
@@ -130,7 +130,7 @@ else
 
         }
     }
-    if (UITouch.getPhase() == 2) // Activate rotation
+    if (UITouch.getPhase() == 2) // Operate rotation
     {
         var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
         var hitInfo = new RaycastHit();
@@ -147,7 +147,7 @@ else
         }
 
     }
-    if (UITouch.getPhase() == 3) // // Activate removal
+    if (UITouch.getPhase() == 3) // // Operate removal
     {
         var ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
         var hitInfo = new RaycastHit();
