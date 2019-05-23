@@ -58,7 +58,7 @@ public void InvokeDelete()
 ***
 
 # Furniture Control
-<img width="1200" alt="스크린샷 2019-05-22 오후 5 26 54" src="https://user-images.githubusercontent.com/41403898/58159121-d28f2780-7cb6-11e9-94b0-065c752af935.png">
+<img width="1200" alt="스크린샷 2019-05-23 오전 11 50 42" src="https://user-images.githubusercontent.com/41403898/58222443-06b72680-7d51-11e9-9b08-da959307b12c.png">
 
 ### AssetBundle_Furniture_Load
 ```C#
