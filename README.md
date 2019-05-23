@@ -10,9 +10,10 @@
 
 ### UITouch class
 ```C#
-public static int phase; // 상태를 나타내는 변수, 0일 때 변화없음, 1일 때 가구 이동 활성화, 2일 때 가구 회전 활성화, 3일 때 가구 삭제 활성화, 4일 때 나가기
+public static int phase; 
+// {0 : No change}, {1 : Activate movement}, {2 : Activate rotation}, {3 : Activate removal}, {4 : Quit}
 
-public static int getPhase() // 상태를 받기위한 getter
+public static int getPhase() // phase getter
 {
     return phase;
 }
@@ -41,20 +42,20 @@ public void Quit()
 }
 public void InvokeMove()
 {
-    phase = -1; // UI, 객체 멀티터치 방지
-    Invoke("switchMove", 1);
+    phase = -1; 
+    Invoke("switchMove", 0.5); // phase = -1 => 0.5 delay time => phase = 1 (avoid multi touch)
 }
 public void InvokeRotate()
 {
     phase = -1;
-    Invoke("switchRotate", 1);
+    Invoke("switchRotate", 0.5);
 }
 public void InvokeDelete()
 {
     phase = -1;
-    Invoke("switchDelete", 1);
+    Invoke("switchDelete", 0.5);
 }
- ```
+```
 ***
 
 # Furniture Control
